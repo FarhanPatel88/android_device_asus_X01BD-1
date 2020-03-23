@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Havoc-OS
+# Copyright (C) 2020 RevengeOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -56,7 +56,6 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_CONFIG := etherious_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 10.0.4
 
 # Treble
 BOARD_VNDK_VERSION := current
