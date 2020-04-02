@@ -27,9 +27,6 @@ IS_PHONE := true
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Google Connectivity Services
-TARGET_INCLUDE_WIFI_EXT := true
-
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
